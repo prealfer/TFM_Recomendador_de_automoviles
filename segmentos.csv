@@ -1,0 +1,396 @@
+Marca;Segmento;Modelo
+TOTAL;;
+ABARTH;Deportivo bajo;124 SPIDER
+ABARTH;Superutilitario;500
+ALFA ROMEO;Deportivo bajo;4C
+ALFA ROMEO;Familiar;GIULIA
+ALFA ROMEO;Compacto;GIULIETTA
+ALFA ROMEO;Utilitario/Polivalente;MiTo
+ASTON MARTIN;Deportivo alto;DB11
+ASTON MARTIN;Deportivo alto;DB9
+ASTON MARTIN;Gran lujo;RAPIDE
+ASTON MARTIN;Deportivo alto;V12 VANTAGE
+ASTON MARTIN;Deportivo alto;V8 VANTAGE
+ASTON MARTIN;Deportivo alto;VANQUISH V12
+AUDI;Utilitario/Polivalente;A1
+AUDI;Compacto;A3
+AUDI;Familiar;A4
+AUDI;Familiar;A4 ALL ROAD
+AUDI;Deportivo bajo;A5
+AUDI;Familiar;A5
+AUDI;Berlina;A6
+AUDI;Berlina;A7
+AUDI;Gran lujo;A8
+AUDI;Berlina;ALL ROAD
+AUDI;TTE Pequeño;Q2
+AUDI;TTE Compacto;Q3
+AUDI;TTE Familiar;Q5
+AUDI;TTE Superior;Q7
+AUDI;Deportivo alto;R8
+AUDI;Deportivo bajo;TT
+B.M.W.;Monovolumen polivalente;i3
+B.M.W.;Deportivo alto;i8
+B.M.W.;Compacto;SERIE 1
+B.M.W.;Compacto;SERIE 2
+B.M.W.;Monovolumen compacto;SERIE 2
+B.M.W.;Deportivo bajo;SERIE 3
+B.M.W.;Familiar;SERIE 3
+B.M.W.;Deportivo bajo;SERIE 4
+B.M.W.;Familiar;SERIE 4
+B.M.W.;Berlina;SERIE 5
+B.M.W.;Berlina;SERIE 6
+B.M.W.;Deportivo alto;SERIE 6
+B.M.W.;Gran lujo;SERIE 7
+B.M.W.;TTE Compacto;X1
+B.M.W.;TTE Familiar;X3
+B.M.W.;TTE Familiar;X4
+B.M.W.;TTE Superior;X5
+B.M.W.;TTE Superior;X6
+B.M.W.;Deportivo bajo;Z4
+BENTLEY;TTE Superior;BENTAYGA
+BENTLEY;Gran lujo;BENTLEY
+BENTLEY;Gran lujo;CONTINENTAL
+BENTLEY;Gran lujo;FLYING SPUR
+BENTLEY;Gran lujo;MULSANNE
+BUICK;Gran lujo;BUICK
+BYD;Monovolumen compacto;E6
+CADILLAC;Familiar;BLS
+CADILLAC;Gran lujo;CADILLAC
+CHEVROLET;Utilitario/Polivalente;AVEO
+CHEVROLET;Familiar;CRUZE
+CHEVROLET;Familiar;MALIBU
+CHEVROLET;TTE Compacto;TRAX
+CHEVROLET (US);Berlina;CHEVROLET
+CITROEN;TTE Familiar;C-CROSSER
+CITROEN;Compacto;C-ELYSEE
+CITROEN;Superutilitario;C-ZERO
+CITROEN;Superutilitario;C1
+CITROEN;Monovolumen polivalente;C3
+CITROEN;Utilitario/Polivalente;C3
+CITROEN;Compacto;C4
+CITROEN;Monovolumen compacto;C4
+CITROEN;TTE Compacto;C4 AIRCROSS
+CITROEN;Compacto;C4 CACTUS
+CITROEN;Familiar;C5
+CITROEN;Monovolumen familiar;C8
+CITROEN;Utilitario/Polivalente;DS3
+CITROEN;Compacto;DS4
+CITROEN;Familiar;DS5
+CITROEN;Utilitario/Polivalente;E-MEHARI
+DACIA;TTE Compacto;DUSTER
+DACIA;Monovolumen compacto;LODGY
+DACIA;Compacto;LOGAN
+DACIA;Utilitario/Polivalente;SANDERO
+FERRARI;Deportivo alto;458
+FERRARI;Deportivo alto;488
+FERRARI;Deportivo alto;599 GTB
+FERRARI;Deportivo alto;612 SCAGLIETTI
+FERRARI;Deportivo alto;CALIFORNIA
+FERRARI;Deportivo alto;F12 BERLINETTA
+FERRARI;Deportivo alto;F12 TDF
+FERRARI;Deportivo alto;FF
+FERRARI;Deportivo alto;GTC4 LUSSO
+FIAT;Deportivo bajo;124 SPIDER
+FIAT;Superutilitario;500
+FIAT;Monovolumen polivalente;500 L
+FIAT;Monovolumen compacto;500 L LIVING
+FIAT;TTE Compacto;500 X
+FIAT;Monovolumen familiar;FREEMONT
+FIAT;Utilitario/Polivalente;GRANDE PUNTO
+FIAT;Superutilitario;PANDA
+FIAT;Compacto;TIPO
+FORD;Monovolumen polivalente;B-MAX
+FORD;TTE Compacto;ECOSPORT
+FORD;TTE Familiar;EDGE
+FORD;Utilitario/Polivalente;FIESTA
+FORD;Compacto;FOCUS
+FORD;Monovolumen compacto;FOCUS
+FORD;Monovolumen familiar;GALAXY
+FORD;Superutilitario;KA
+FORD;Utilitario/Polivalente;KA+
+FORD;TTE Compacto;KUGA
+FORD;Familiar;MONDEO
+FORD;Deportivo alto;MUSTANG
+FORD;Berlina;OTROS USA
+FORD;Monovolumen familiar;S-MAX
+FORD;Monovolumen polivalente;TOURNEO COURIER
+HONDA;Familiar;ACCORD
+HONDA;Compacto;CIVIC
+HONDA;TTE Familiar;CRV
+HONDA;TTE Compacto;HRV
+HONDA;Monovolumen polivalente;JAZZ
+HUMMER;TTE Superior;HUMMER H3
+HYUNDAI;Compacto;ELANTRA
+HYUNDAI;Berlina;GENESIS
+HYUNDAI;TTE Superior;GRAND SANTA FE
+HYUNDAI;Monovolumen familiar;H-1
+HYUNDAI;Superutilitario;i10
+HYUNDAI;Utilitario/Polivalente;i20
+HYUNDAI;Compacto;i30
+HYUNDAI;Familiar;i40
+HYUNDAI;Compacto;IONIQ
+HYUNDAI;Monovolumen polivalente;ix20
+HYUNDAI;TTE Compacto;IX35
+HYUNDAI;TTE Familiar;SANTA FE
+HYUNDAI;TTE Compacto;TUCSON
+HYUNDAI;Deportivo bajo;VELOSTER
+INFINITI;TTE Familiar;EX
+INFINITI;TTE Superior;FX
+INFINITI;Berlina;G
+INFINITI;Berlina;M
+INFINITI;Compacto;Q30
+INFINITI;Familiar;Q50
+INFINITI;Berlina;Q70
+INFINITI;TTE Compacto;QX30
+INFINITI;TTE Familiar;QX50
+INFINITI;TTE Superior;QX70
+JAGUAR;TTE Familiar;F-PACE
+JAGUAR;Deportivo alto;F-TYPE
+JAGUAR;Familiar;XE
+JAGUAR;Berlina;XF
+JAGUAR;Gran lujo;XJ
+JAGUAR;Deportivo alto;XK
+JEEP;TTE Compacto;CHEROKEE
+JEEP;TTE Compacto;COMPASS
+JEEP;TTE Superior;GRAND CHEROKEE
+JEEP;TTE Compacto;PATRIOT
+JEEP;TTE Pequeño;RENEGADE
+JEEP;TTE Pequeño;WRANGLER
+K.T.M.;Deportivo alto;X-BOW
+KIA;Monovolumen compacto;CARENS
+KIA;Compacto;CEED
+KIA;TTE Compacto;NIRO
+KIA;Familiar;OPTIMA
+KIA;Superutilitario;PICANTO
+KIA;Utilitario/Polivalente;RIO
+KIA;TTE Familiar;SORENTO
+KIA;TTE Pequeño;SOUL
+KIA;TTE Compacto;SPORTAGE
+KIA;Monovolumen polivalente;VENGA
+LAMBORGHINI;Deportivo alto;AVENTADOR
+LAMBORGHINI;Deportivo alto;GALLARDO
+LAMBORGHINI;Deportivo alto;HURACAN
+LANCIA;Utilitario/Polivalente;Y
+LAND ROVER;TTE Pequeño;DEFENDER
+LAND ROVER;TTE Superior;DISCOVERY
+LAND ROVER;TTE Familiar;DISCOVERY SPORT
+LAND ROVER;TTE Compacto;FREELANDER
+LAND ROVER;TTE Superior;RANGE ROVER
+LAND ROVER;TTE Compacto;RANGE ROVER EVOQUE
+LAND ROVER;TTE Superior;RANGE ROVER SPORT
+LEXUS;Compacto;CT
+LEXUS;Gran lujo;GS
+LEXUS;Familiar;IS
+LEXUS;Gran lujo;LS
+LEXUS;TTE Familiar;NX
+LEXUS;Deportivo alto;RC
+LEXUS;TTE Superior;RX
+LINCOLN;Gran lujo;CONTINENTAL
+LOTUS;Deportivo bajo;ELISE
+LOTUS;Deportivo alto;EVORA
+LOTUS;Deportivo bajo;EXIGE
+MAHINDRA;TTE Pequeño;QUANTO
+MAHINDRA;TTE Familiar;XUV 500
+MASERATI;Berlina;GHIBLI
+MASERATI;Deportivo alto;GRAN CABRIO
+MASERATI;Deportivo alto;GRAN TURISMO
+MASERATI;TTE Superior;LEVANTE
+MASERATI;Gran lujo;QUATTROPORTE
+MAZDA;Utilitario/Polivalente;2
+MAZDA;Compacto;3
+MAZDA;Monovolumen familiar;5
+MAZDA;Familiar;6
+MAZDA;TTE Compacto;CX-3
+MAZDA;TTE Compacto;CX-5
+MAZDA;TTE Familiar;CX-7
+MAZDA;TTE Superior;CX-9
+MAZDA;Deportivo bajo;MX-5
+MCLAREN;Deportivo alto;650 S
+MCLAREN;Deportivo alto;MP4-12C
+MERCEDES;Deportivo alto;AMG-GT
+MERCEDES;Compacto;CLASE A
+MERCEDES;Monovolumen compacto;CLASE B
+MERCEDES;Deportivo bajo;CLASE C
+MERCEDES;Familiar;CLASE C
+MERCEDES;Deportivo alto;CLASE CL
+MERCEDES;Familiar;CLASE CLA
+MERCEDES;Berlina;CLASE CLS
+MERCEDES;Berlina;CLASE E
+MERCEDES;Deportivo alto;CLASE E
+MERCEDES;TTE Superior;CLASE G
+MERCEDES;TTE Superior;CLASE GL
+MERCEDES;TTE Compacto;CLASE GLA
+MERCEDES;TTE Compacto;CLASE GLC
+MERCEDES;TTE Superior;CLASE GLE
+MERCEDES;TTE Compacto;CLASE GLK
+MERCEDES;TTE Superior;CLASE GLS
+MERCEDES;TTE Superior;CLASE M
+MERCEDES;Monovolumen familiar;CLASE R
+MERCEDES;Deportivo alto;CLASE S
+MERCEDES;Gran lujo;CLASE S
+MERCEDES;Deportivo alto;CLASE SL
+MERCEDES;Deportivo bajo;CLASE SLC
+MERCEDES;Deportivo bajo;CLASE SLK
+MERCEDES;Deportivo alto;CLASE SLS
+MERCEDES;Monovolumen familiar;CLASE V
+MERCEDES;Monovolumen familiar;VIANO
+MINI;Deportivo bajo;MINI
+MINI;TTE Pequeño;MINI
+MINI;Utilitario/Polivalente;MINI
+MITSUBISHI;TTE Compacto;ASX
+MITSUBISHI;Superutilitario;iMIEV
+MITSUBISHI;Familiar;LANCER
+MITSUBISHI;TTE Superior;MONTERO
+MITSUBISHI;TTE Familiar;OUTLANDER
+MITSUBISHI;Superutilitario;SPACE STAR
+MORGAN;Deportivo alto;MORGAN
+NISSAN;Deportivo bajo;370 Z
+NISSAN;Berlina;ALTIMA
+NISSAN;Utilitario/Polivalente;CUBE
+NISSAN;Deportivo alto;GT-R
+NISSAN;TTE Pequeño;JUKE
+NISSAN;Compacto;LEAF
+NISSAN;Utilitario/Polivalente;MICRA
+NISSAN;TTE Familiar;MURANO
+NISSAN;TTE Superior;MURANO II
+NISSAN;Monovolumen polivalente;NOTE
+NISSAN;Compacto;PULSAR
+NISSAN;TTE Compacto;QASHQAI
+NISSAN;TTE Compacto;QASHQAI+2
+NISSAN;TTE Familiar;X-TRAIL
+OLDSMOBILE;Gran lujo;OLDSMOBILE
+OPEL;Superutilitario;ADAM
+OPEL;Monovolumen polivalente;AGILA
+OPEL;TTE Familiar;ANTARA
+OPEL;Compacto;ASTRA
+OPEL;Deportivo bajo;CABRIO
+OPEL;Utilitario/Polivalente;CORSA
+OPEL;Familiar;INSIGNIA
+OPEL;Superutilitario;KARL
+OPEL;Monovolumen compacto;MERIVA
+OPEL;TTE Compacto;MOKKA
+OPEL;Monovolumen compacto;ZAFIRA
+OPEL;Monovolumen compacto;ZAFIRA TOURER
+PEUGEOT;Superutilitario;107
+PEUGEOT;Superutilitario;108
+PEUGEOT;TTE Pequeño;2008
+PEUGEOT;Utilitario/Polivalente;206
+PEUGEOT;Utilitario/Polivalente;207
+PEUGEOT;Utilitario/Polivalente;208
+PEUGEOT;Monovolumen compacto;3008
+PEUGEOT;TTE Compacto;3008
+PEUGEOT;Compacto;308
+PEUGEOT;TTE Compacto;4008
+PEUGEOT;Familiar;407
+PEUGEOT;Monovolumen compacto;5008
+PEUGEOT;Familiar;508
+PEUGEOT;Berlina;607
+PEUGEOT;Monovolumen familiar;807
+PEUGEOT;Superutilitario;iOn
+PEUGEOT;Deportivo bajo;RCZ
+PONTIAC;Berlina;PONTIAC
+PORSCHE;Deportivo alto;718
+PORSCHE;Deportivo alto;911
+PORSCHE;Deportivo alto;918
+PORSCHE;Deportivo alto;BOXSTER
+PORSCHE;TTE Superior;CAYENNE
+PORSCHE;Deportivo alto;CAYMAN
+PORSCHE;TTE Familiar;MACAN
+PORSCHE;Gran lujo;PANAMERA
+RENAULT;TTE Pequeño;CAPTUR
+RENAULT;Utilitario/Polivalente;CLIO
+RENAULT;Monovolumen familiar;ESPACE
+RENAULT;Compacto;FLUENCE
+RENAULT;TTE Compacto;KADJAR
+RENAULT;Deportivo bajo;LAGUNA
+RENAULT;Familiar;LAGUNA
+RENAULT;Compacto;MEGANE
+RENAULT;Monovolumen compacto;MEGANE
+RENAULT;Monovolumen polivalente;MODUS
+RENAULT;Familiar;TALISMAN
+RENAULT;Superutilitario;TWINGO
+RENAULT;Utilitario/Polivalente;ZOE
+ROLLS ROYCE;Gran lujo;GHOST
+SEAT;Monovolumen familiar;ALHAMBRA
+SEAT;Monovolumen compacto;ALTEA
+SEAT;TTE Compacto;ATECA
+SEAT;Familiar;EXEO
+SEAT;Utilitario/Polivalente;IBIZA
+SEAT;Compacto;LEON
+SEAT;Superutilitario;Mii
+SEAT;Compacto;TOLEDO
+SKODA;Superutilitario;CITIGO
+SKODA;Utilitario/Polivalente;FABIA
+SKODA;Familiar;OCTAVIA
+SKODA;Compacto;RAPID
+SKODA;Compacto;SPACEBACK
+SKODA;Familiar;SUPERB
+SKODA;TTE Pequeño;YETI
+SMART;Superutilitario;FORFOUR
+SMART;Superutilitario;FORTWO
+SSANGYONG;TTE Compacto;KORANDO
+SSANGYONG;TTE Familiar;REXTON
+SSANGYONG;Monovolumen familiar;RODIUS
+SSANGYONG;TTE Pequeño;TIVOLI
+SSANGYONG;TTE Compacto;XLV
+SUBARU;Deportivo bajo;BR-Z
+SUBARU;TTE Familiar;FORESTER
+SUBARU;Familiar;LEVORG
+SUBARU;Familiar;OUTBACK
+SUBARU;Compacto;WRX
+SUBARU;TTE Compacto;XV
+SUZUKI;Utilitario/Polivalente;BALENO
+SUZUKI;Superutilitario;CELERIO
+SUZUKI;TTE Compacto;GRAN VITARA
+SUZUKI;TTE Pequeño;GRAN VITARA
+SUZUKI;TTE Pequeño;JIMNY
+SUZUKI;Monovolumen polivalente;SPLASH
+SUZUKI;Utilitario/Polivalente;SWIFT
+SUZUKI;TTE Pequeño;SX4
+SUZUKI;TTE Compacto;SX4 S-CROSS
+SUZUKI;TTE Pequeño;VITARA
+TESLA;Berlina;MODEL S
+TESLA;TTE Superior;MODEL X
+TOYOTA;Compacto;AURIS
+TOYOTA;Familiar;AVENSIS
+TOYOTA;Superutilitario;AYGO
+TOYOTA;TTE Compacto;C-HR
+TOYOTA;Deportivo bajo;GT 86
+TOYOTA;TTE Familiar;HIGHLANDER
+TOYOTA;Superutilitario;IQ
+TOYOTA;TTE Superior;LANDCRUISER
+TOYOTA;Compacto;PRIUS
+TOYOTA;Monovolumen compacto;PRIUS +
+TOYOTA;Compacto;PRIUS PLUG-IN
+TOYOTA;TTE Compacto;RAV-4
+TOYOTA;Monovolumen compacto;VERSO
+TOYOTA;Monovolumen polivalente;YARIS
+TOYOTA;Utilitario/Polivalente;YARIS
+VOLKSWAGEN;Compacto;BEETLE
+VOLKSWAGEN;Familiar;CC
+VOLKSWAGEN;Deportivo bajo;EOS
+VOLKSWAGEN;Compacto;GOLF
+VOLKSWAGEN;Monovolumen compacto;GOLF
+VOLKSWAGEN;Compacto;JETTA
+VOLKSWAGEN;Familiar;PASSAT
+VOLKSWAGEN;Utilitario/Polivalente;POLO
+VOLKSWAGEN;Deportivo bajo;SCIROCCO
+VOLKSWAGEN;Monovolumen familiar;SHARAN
+VOLKSWAGEN;TTE Compacto;TIGUAN
+VOLKSWAGEN;TTE Superior;TOUAREG
+VOLKSWAGEN;Monovolumen compacto;TOURAN
+VOLKSWAGEN;Superutilitario;UP!
+VOLVO;Deportivo bajo;C70
+VOLVO;Familiar;S60
+VOLVO;Familiar;S60 CROSS COUNTRY
+VOLVO;Berlina;S80
+VOLVO;Berlina;S90
+VOLVO;Compacto;V40
+VOLVO;Compacto;V40 CROSS COUNTRY
+VOLVO;Familiar;V60
+VOLVO;Familiar;V60 CROSS COUNTRY
+VOLVO;Berlina;V70
+VOLVO;Berlina;V90
+VOLVO;TTE Familiar;XC 60
+VOLVO;TTE Superior;XC 90
+VOLVO;Berlina;XC70
