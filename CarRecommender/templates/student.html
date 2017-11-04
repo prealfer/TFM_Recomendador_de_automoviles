@@ -1,0 +1,225 @@
+<html>
+   <body>
+      <h2> Configure sus gustos </h2>
+      <form action = "http://localhost:5000/result" method = "POST">
+          
+          <p>Consumo:</p>
+          <fieldset id="groupConsumo">
+            <input type="radio"
+             name="Consumo" value="Mechero">
+            <label for="contactChoice1">Mechero</label>
+              
+            <input type="radio"
+             name="Consumo" value="Poco gaston">
+            <label for="contactChoice1">Poco gaston</label>
+
+            <input type="radio"
+             name="Consumo" value="Moderado">
+            <label for="contactChoice2">Moderado</label>
+
+            <input type="radio"
+             name="Consumo" value="Indiferente" checked="checked">
+            <label for="contactChoice3">Indiferente</label>
+          </fieldset>
+          
+          <p>Combustible:</p>
+          <fieldset id="groupCombustible">
+            <input type="radio"
+             name="Combustible" value="Gasolina">
+            <label for="contactChoice1">Gasolina</label>
+              
+            <input type="radio"
+             name="Combustible" value="Diesel">
+            <label for="contactChoice1">Diesel</label>
+
+            <input type="radio"
+             name="Combustible" value="Hibrido">
+            <label for="contactChoice2">Hibrido</label>
+
+            <input type="radio"
+             name="Combustible" value="Electrico">
+            <label for="contactChoice3">Electrico</label>
+
+            <input type="radio"
+             name="Combustible" value="Indiferente" checked="checked">
+            <label for="contactChoice3">Indiferente</label>
+          </fieldset>
+          
+          <p>Potencia:</p>
+          <fieldset id="groupPotencia">             
+            <input type="radio"
+             name="Potencia" value="Agil">
+            <label for="contactChoice1">Agil</label>
+
+            <input type="radio"
+             name="Potencia" value="Potente">
+            <label for="contactChoice2">Potente</label>
+
+            <input type="radio"
+             name="Potencia" value="Muy potente">
+            <label for="contactChoice3">Muy potente</label>
+           
+            <input type="radio"
+             name="Potencia" value="Indiferente" checked="checked">
+            <label for="contactChoice3">Indiferente</label>
+          </fieldset>
+          
+          <p>Cambio:</p>
+          <fieldset id="groupCambio">
+            <input type="radio"
+             name="Cambio" value="Manual">
+            <label for="contactChoice1">Manual</label>
+              
+            <input type="radio"
+             name="Cambio" value="Automatico">
+            <label for="contactChoice1">Automatico</label>
+
+            <input type="radio"
+             name="Cambio" value="Indiferente" checked="checked">
+            <label for="contactChoice2">Indiferente</label>
+          </fieldset>
+          
+          <p>Cuidadoso con el medio ambiente:</p>
+          <fieldset id="groupCo2">
+            <input type="radio"
+             name="Co2" value="Mucho">
+            <label for="contactChoice1">Mucho</label>
+              
+            <input type="radio"
+             name="Co2" value="Lo justo">
+            <label for="contactChoice1">Lo justo</label>
+
+            <input type="radio"
+             name="Co2" value="Indiferente" checked="checked">
+            <label for="contactChoice2">Indiferente</label>
+          </fieldset>
+          
+          <p>Autonomia:</p>
+          <fieldset id="groupAutonomia">
+            <input type="radio"
+             name="Autonomia" value="Que se hagan muchos kms">
+            <label for="contactChoice1">Que se hagan muchos kms</label>
+              
+            <input type="radio"
+             name="Autonomia" value="Suficiente">
+            <label for="contactChoice1">Suficiente</label>
+
+            <input type="radio"
+             name="Autonomia" value="Indiferente" checked="checked">
+            <label for="contactChoice2">Indiferente</label>
+          </fieldset>
+          
+          <p>Traccion:</p>
+          <fieldset id="groupTraccion">
+            <input type="radio"
+             name="Traccio" value="Delantera">
+            <label for="contactChoice1">Delantera</label>
+              
+            <input type="radio"
+             name="Traccio" value="Trasera">
+            <label for="contactChoice1">Trasera</label>
+
+            <input type="radio"
+             name="Traccio" value="Total">
+            <label for="contactChoice2">Total</label>
+              
+            <input type="radio"
+             name="Traccio" value="Indiferente" checked="checked">
+            <label for="contactChoice2">Indiferente</label>
+          </fieldset>
+          
+          <p>Garantia:</p>
+          <fieldset id="groupGarantia">
+            <input type="radio"
+             name="Garantia" value="Suficiente">
+            <label for="contactChoice1">Suficiente</label>
+              
+            <input type="radio"
+             name="Garantia" value="Amplia">
+            <label for="contactChoice1">Amplia</label>
+
+            <input type="radio"
+             name="Garantia" value="Indiferente" checked="checked">
+            <label for="contactChoice2">Indiferente</label>
+          </fieldset>
+          
+          <p>Maletero:</p>
+          <fieldset id="groupMaletero">
+            <input type="radio"
+             name="Maletero" value="Lo justo">
+            <label for="contactChoice1">Lo justo</label>
+              
+            <input type="radio"
+             name="Maletero" value="Mediano">
+            <label for="contactChoice1">Mediano</label>
+
+            <input type="radio"
+             name="Maletero" value="Grande">
+            <label for="contactChoice2">Grande</label>
+              
+            <input type="radio"
+             name="Maletero" value="Lo mas grande posible">
+            <label for="contactChoice2">Lo mas grande posible</label>
+              
+            <input type="radio"
+             name="Maletero" value="Indiferente" checked="checked">
+            <label for="contactChoice2">Indiferente</label>
+          </fieldset>
+          
+          <p>Tipo de marcas que busco:</p>
+          <fieldset id="groupMarcas">            
+            <input type="radio"
+             name="Marcas" value="Premium">
+            <label for="contactChoice1">Premium</label>
+
+            <input type="radio"
+             name="Marcas" value="Lujo">
+            <label for="contactChoice2">Lujo</label>
+
+            <input type="radio"
+             name="Marcas" value="Indiferente" checked="checked">
+            <label for="contactChoice1">Indiferente</label>
+          </fieldset>
+          
+          <p>Tamaño:</p>
+          <fieldset id="groupTamaño">
+            <input type="radio"
+             name="Tamaño" value="Pequeño y manejable">
+            <label for="contactChoice1">Pequeño y manejable</label>
+              
+            <input type="radio"
+             name="Tamaño" value="Medio">
+            <label for="contactChoice1">Medio</label>
+
+            <input type="radio"
+             name="Tamaño" value="Grande">
+            <label for="contactChoice2">Grande</label>
+              
+            <input type="radio"
+             name="Tamaño" value="Muy espacioso">
+            <label for="contactChoice2">Muy espacioso</label>
+              
+            <input type="radio"
+             name="Tamaño" value="Indiferente" checked="checked">
+            <label for="contactChoice2">Indiferente</label>
+          </fieldset>
+          
+          <p>Segmento:</p>
+          <fieldset id="groupSegmento">
+            <input type="radio"
+             name="Segmento" value="Superutilitario">
+            <label for="contactChoice1">Superutilitario</label>
+              
+            <input type="radio"
+             name="Segmento" value="Utilitario/Polivalente">
+            <label for="contactChoice1">Utilitario/Polivalente</label>
+
+            <input type="radio"
+             name="Segmento" value="Compacto">
+            <label for="contactChoice2">Compacto</label>
+          </fieldset>
+          <button type="submit" class="btn btn-primary">Run it</button>
+      </form>
+      
+   </body>
+</html>
