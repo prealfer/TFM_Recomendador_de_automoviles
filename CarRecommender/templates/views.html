@@ -1,10 +1,70 @@
 <!doctype html>
 <title>Simple tables</title>
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
-<div class=page>
-  <h1>Modelos recomendados</h1>
-  {% for table in tables %}
+<head>
+    <style>
+        .form-style-5{
+            max-width: 500px;
+            padding: 10px 20px;
+            background: #f4f7f8;
+            margin: 10px auto;
+            padding: 20px;
+            background: #f4f7f8;
+            border-radius: 8px;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+
+        .form-style-5 legend {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        .form-style-5 label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-style-5 .number {
+            background: #1abc9c;
+            color: #fff;
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+            font-size: 0.8em;
+            margin-right: 4px;
+            line-height: 30px;
+            text-align: center;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+            border-radius: 15px 15px 15px 0px;
+        }
+        table {  
+            color: #333;
+            font-family: Helvetica, Arial, sans-serif;
+            width: 99%; 
+            border-collapse: 
+            collapse; border-spacing: 0; 
+        }
+
+        td, th {  
+            border: 1px solid transparent; /* No more visible border */
+            height: 30px; 
+            transition: all 0.3s;  /* Simple transition for hover effect */
+        }
+
+        th {  
+            background: #1abc9c;  /* Darken header a bit */
+            font-weight: bold;
+        }
+
+        td {  
+            background: #f4f7f8;
+            text-align: center;
+        }
+
+    </style>  
+</head>
+  <div class="form-style-5">
+      <legend><span class="number">3</span> Modelos recomendados</legend>
+    {% for table in tables %}
     <h2>{{titles[loop.index]}}</h2>
     {{ table|safe }}
   {% endfor %}
-</div>
+   </div>

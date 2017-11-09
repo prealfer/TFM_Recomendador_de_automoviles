@@ -11,31 +11,31 @@ def index():
 
 @app.route("/result",methods = ['POST', 'GET'])
 def result():
+    
+    #Variables locales
     data_vector = []
+    data_vector_ord = []
+    lista_ordenes = [1,2,11,14,6,5,13,0,10,12,8,4,15,9,3,16,7] 
+    
     if request.method == 'POST':
+        
+        #Recuperacion de los params/datos del formulario
         for value in request.form.values():
             data_vector.append(float(value))
+
+        #Ordenacion de los datos para poder ser calculadas las distancias 
+        for orden in lista_ordenes:
+            data_vector_ord.append(data_vector[orden])
         
-        for value,key in request.form.iteritems(): 
-            print(value,key)
-        
-        d0 = data_vector[0]
-        d1 = data_vector[1]
-        
-        data_vector.remove(d0)
-        data_vector.remove(d1)
-        
-        data_vector.insert(0,d0)
-        data_vector.insert(0,d1)
-        
+        #Trazas
         print(data_vector)
+        print(data_vector_ord)
     
-        data = recomienda_20F(data_vector)
-        #data = recomienda_20([1,1,1,0,0,0,1,1,0,1,0,1,0,0,1,1,0])
+        #Calculo de las recomendaciones
+        data = recomienda_20F(data_vector_ord)
 
-        #return render_template('views.html',tables=[data.to_html(classes='female', bold_rows=True)],titles=['Recomendacion','coches'])
-
+        return render_template('views.html',tables=[data.to_html(index=False)],titles=['Recomendacion'])
     
-        return render_template('views.html',tables=[data.to_html()],titles=['Recomendacion'])
+    
 if __name__ == "__main__":
     app.run(debug=True)
