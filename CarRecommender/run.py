@@ -2,6 +2,10 @@ from flask import *
 import pandas as pd
 from flask import request
 from recomendador import recomienda_20F
+import seaborn as sns
+import StringIO
+import base64
+import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
@@ -33,8 +37,42 @@ def result():
     
         #Calculo de las recomendaciones
         data = recomienda_20F(data_vector_ord)
+        
+        img = StringIO.StringIO()
+        
+        plot = sns.barplot(data.modelo.map(lambda x: x.decode('unicode-escape')), data.precio)
+        plot.set(xlabel='Vehiculos', ylabel='Precio')
+        
+        plt.savefig(img, format='png')
+        img.seek(0)
 
-        return render_template('views.html',tables=[data.to_html(index=False)],titles=['Recomendacion'])
+        plot_url = base64.b64encode(img.getvalue())
+
+        return render_template('views.html',tables=[data.to_html(index=False)],titles=['Recomendacion'],plot_url=plot_url)
+    
+    
+@app.route("/simple.png")
+def simple():
+
+    fig=Figure()
+    ax=fig.add_subplot(111)
+    x=[]
+    y=[]
+    now=datetime.datetime.now()
+    delta=datetime.timedelta(days=1)
+    for i in range(10):
+        x.append(now)
+        now+=delta
+        y.append(random.randint(0, 1000))
+    ax.plot_date(x, y, '-')
+    ax.xaxis.set_major_formatter(DateFormatter('%Y-%m-%d'))
+    fig.autofmt_xdate()
+    canvas=FigureCanvas(fig)
+    png_output = StringIO.StringIO()
+    canvas.print_png(png_output)
+    response=make_response(png_output.getvalue())
+    response.headers['Content-Type'] = 'image/png'
+    return response
     
     
 if __name__ == "__main__":

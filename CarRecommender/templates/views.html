@@ -3,7 +3,7 @@
 <head>
     <style>
         .form-style-5{
-            max-width: 700px;
+            max-width: 800px;
             padding: 10px 20px;
             background: #f4f7f8;
             margin: 10px auto;
@@ -35,13 +35,15 @@
             text-shadow: 0 1px 0 rgba(255,255,255,0.2);
             border-radius: 15px 15px 15px 0px;
         }
+        
         table {  
             border-spacing:0 10px;
+            border-radius: 20px;
             color: #333;
             font-family: Helvetica, Arial, sans-serif;
             width: 99%; 
-            border-collapse: 
-            collapse; border-spacing: 0; 
+            border-collapse: collapse; 
+            border-spacing: 0; 
         }
 
         td, th {  
@@ -66,10 +68,18 @@
 
     </style>  
 </head>
-  <div class="form-style-5">
-      <legend><span class="number">3</span> Modelos recomendados</legend>
+<body>
+    <div class="form-style-5">
+        <legend><span class="number">3</span> Grafica de modelos recomendados</legend>    
+        <img src="data:image/png;base64, {{ plot_url }}">
+    </div>
+    
+    <div class="form-style-5">
+      <legend><span class="number">4</span> Listado de modelos recomendados</legend>
     {% for table in tables %}
     <h2>{{titles[loop.index]}}</h2>
     {{ table|safe }}
   {% endfor %}
    </div>
+
+</body>
