@@ -1,0 +1,584 @@
+<html>
+    <head>
+        <style>
+ 
+        .wrap {
+            display: inline-block;
+        }   
+        .form-style-5{
+            max-width: 800px;
+            padding: 10px 20px;
+            background: #f4f7f8;
+            margin: 10px auto;
+            padding: 20px;
+            background: #f4f7f8;
+            border-radius: 20px;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+        .form-style-5 fieldset{
+            border: none;
+        }
+        .form-style-5 legend {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        .form-style-5 label {
+            display: inline-block;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .form-style-5 output,
+        .form-style-5 input[type="range"],
+        .form-style-5 input[type="radio"] {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            background: rgba(255,255,255,.1);
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            outline: 0;
+            padding: 7px;
+            width: 100%;
+            box-sizing: border-box; 
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box; 
+            background-color: #e8eeef;
+            color:#8a97a0;
+            -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+            box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+            margin-bottom: 30px;
+
+        }
+        .form-style-5 input[type="range"]:focus,
+        .form-style-5 input[type="radio"]:focus{
+            background: #d2d9dd;
+            display: block;
+            margin: 0.5em auto;
+        }
+
+        .form-style-5 .number {
+            background: #1abc9c;
+            color: #fff;
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+            font-size: 0.8em;
+            margin-right: 4px;
+            line-height: 30px;
+            text-align: center;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+            border-radius: 15px 15px 15px 0px;
+        }
+        .form-style-5 output{
+            position: relative;
+            display: block;
+            padding: 19px 39px 18px 39px;
+            color: #FFF;
+            margin: 0 auto;
+            background: #1abc9c;
+            font-size: 30px;
+            text-align: center;
+            font-style: normal;
+            width: 100%;
+            border: 1px solid #16a085;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+        }
+            
+        .form-style-5 input[type="submit"],
+        .form-style-5 input[type="button"]
+        {
+            position: relative;
+            display: block;
+            padding: 19px 39px 18px 39px;
+            color: #FFF;
+            margin: 0 auto;
+            background: #1abc9c;
+            font-size: 25px;
+            text-align: center;
+            font-style: normal;
+            width: 100%;
+            border: 4px solid #16a085;
+            border-radius: 10px;
+            border-width: 1px 1px 3px;
+            margin-bottom: 10px;
+        }
+        .form-style-5 input[type="submit"]:hover,
+        .form-style-5 input[type="button"]:hover
+        {
+            background: #109177;
+        }
+
+
+            
+        </style>
+    </head>
+    
+    <body>
+      <div class="form-style-5">
+          <legend align="center"><span class="number">1</span>  Configure sus gustos</legend>
+          <form action = "http://localhost:5000/result" method = "POST">
+
+              <legend>Presupuesto:</legend>
+              <fieldset id="groupPrecio">
+
+                  <input type="range" min="0" max="100000" value="12000" step="100" list="tickmarks" id="rangeInput" oninput="output.value = rangeInput.value" style="display:inline-block; vertical-align:middle" name="presupuesto">
+
+                  <output id="output" for="rangeInput">12000</output> 
+
+              </fieldset>
+
+              <legend>Consumo:</legend>
+              <fieldset id="fieldgroup">
+                <div class="wrap">
+                  <label for="contactChoice1">Ninguno</label>
+                  <input type="radio"
+                  name="Consumo" value="0">
+                  </div>
+                <div class="wrap">
+                <label for="contactChoice1">Mechero</label>
+                <input type="radio"
+                 name="Consumo" value="0.2">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Bajo</label>
+                <input type="radio"
+                 name="Consumo" value="0.35">
+                  </div>
+                <div class="wrap">
+                <label for="contactChoice2">Moderado</label>
+                <input type="radio"
+                 name="Consumo" value="0.5">
+                  </div>
+                  
+                  <div class="wrap">               
+                <label for="contactChoice3">Indiferente</label>
+                <input type="radio"
+                 name="Consumo" value="1" checked="checked">
+                </div>
+              </fieldset>
+
+              <legend>Combustible:</legend>
+              <fieldset id="fieldgroup">
+                <div class="wrap">
+                  <label for="contactChoice1">Gasolina</label>                  
+                <input type="radio"
+                 name="Combustible" value="0.85">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Diesel</label>
+                <input type="radio"
+                 name="Combustible" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Hibrido</label>
+                <input type="radio"
+                 name="Combustible" value="0.25">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice3">Electrico</label>
+                <input type="radio"
+                 name="Combustible" value="0">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice3">Indiferente</label>
+                <input type="radio"
+                 name="Combustible" value="0.9" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Potencia:</legend>
+              <fieldset id="groupPotencia">  
+                  <div class="wrap">
+                <label for="contactChoice1">Suficiente</label>                
+                 <input type="radio"
+                 name="Potencia" value="0.2">
+                  </div>
+                      
+                <div class="wrap">
+                <label for="contactChoice2">Potente</label>
+                <input type="radio"
+                 name="Potencia" value="0.3">
+                </div>
+                          
+                <div class="wrap">
+                <label for="contactChoice3">Muy potente</label>
+                <input type="radio"
+                 name="Potencia" value="0.6">
+                </div>
+                              
+                <div class="wrap">
+                <label for="contactChoice3">Indiferente</label>
+                <input type="radio"
+                 name="Potencia" value="0.16" checked="checked">
+                </div>
+              </fieldset>
+
+              <legend>Cambio:</legend>
+                <fieldset id="groupCambio">
+                  <div class="wrap">
+                <label for="contactChoice1">Manual</label>                 
+                <input type="radio"
+                 name="Cambio" value="0">
+                  </div>
+                  
+                  <div class="wrap">
+                <label for="contactChoice1">Automatico</label>
+                <input type="radio"
+                 name="Cambio" value="1">
+                    </div>
+                      
+                      <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Cambio" value="0.5" checked="checked">
+                </div>
+              </fieldset>
+
+              <legend>Contaminación:</legend>
+              <fieldset id="groupCo2">
+                  <div class="wrap">
+                <label for="contactChoice1">Cero emisiones</label>                
+                <input type="radio"
+                 name="Co2" value="0">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Respetuoso</label>
+                <input type="radio"
+                 name="Co2" value="0.18">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Normal</label>
+                <input type="radio"
+                 name="Co2" value="0.25" checked="checked">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Co2" value="0.3" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Autonomia:</legend>
+              <fieldset id="groupAutonomia">
+                  <div class="wrap">
+                <label for="contactChoice1">Grande</label>                  
+                <input type="radio"
+                 name="Autonomia" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Suficiente</label>
+                <input type="radio"
+                 name="Autonomia" value="0.2">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Autonomia" value="0.25" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Traccion:</legend>
+              <fieldset id="groupTraccion">
+                  <div class="wrap">
+                <label for="contactChoice1">Delantera</label>                  
+                <input type="radio"
+                 name="Traccio" value="0">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Trasera</label>
+                <input type="radio"
+                 name="Traccio" value="0.4">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Total</label>
+                <input type="radio"
+                 name="Traccio" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Traccio" value="0.2" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Garantia:</legend>
+              <fieldset id="groupGarantia">
+                  <div class="wrap">
+               <label for="contactChoice1">Amplia</label>                  
+                <input type="radio"
+                 name="Garantia" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Normal</label>
+                <input type="radio"
+                 name="Garantia" value="0.3">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Suficiente</label>   
+                <input type="radio"
+                 name="Garantia" value="0.15">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Garantia" value="0.2" checked="checked">
+                </div>                  
+              </fieldset>
+
+              <legend>Capacidad del maletero:</legend>
+              <fieldset id="groupMaletero">
+                  <div class="wrap">
+                <label for="contactChoice1">Enorme</label>                 
+                <input type="radio"
+                 name="Maletero" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Grande</label>
+                <input type="radio"
+                 name="Maletero" value="0.8">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Mediana</label>
+                <input type="radio"
+                 name="Maletero" value="0.2">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Maletero" value="0.33" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Tipo de marcas que me gustan:</legend>
+              <fieldset id="groupMarcas">  
+                  <div class="wrap">
+                <label for="contactChoice1">Generalista</label>                  
+                <input type="radio"
+                 name="Marcas" value="0">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Premium</label>
+                <input type="radio"
+                 name="Marcas" value="0.6">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Lujo</label>  
+                <input type="radio"
+                 name="Marcas" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Indiferente</label>
+                <input type="radio"
+                 name="Marcas" value="0.15" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Tamaño:</legend>
+              <fieldset id="groupTamaño">
+                  <div class="wrap">
+                <label for="contactChoice1">Muy grande</label>                  
+                <input type="radio"
+                 name="Tamaño" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Grande</label>
+                <input type="radio"
+                 name="Tamaño" value="0.8">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Mediano</label>
+                <input type="radio"
+                 name="Tamaño" value="0.4">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Pequeño/manejable</label>
+                <input type="radio"
+                 name="Tamaño" value="0.1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Tamaño" value="0.5" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Segmento:</legend>
+              <fieldset id="groupSegmento">
+                  <div class="wrap">
+                <label for="contactChoice1">Superutilitario</label>                  
+                <input type="radio"
+                 name="Segmento" value="0">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Utilitario/Polivalente</label>
+                <input type="radio"
+                 name="Segmento" value="0.02">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Compacto</label>
+                <input type="radio"
+                 name="Segmento" value="0.04">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">SUV Pequeño</label>
+                <input type="radio"
+                 name="Segmento" value="0.08">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">SUV Compacto</label> 
+                <input type="radio"
+                 name="Segmento" value="0.12">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Berlina</label> 
+                <input type="radio"
+                 name="Segmento" value="0.18">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Familiar</label> 
+                <input type="radio"
+                 name="Segmento" value="0.2">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Monovolumen pequeño</label> 
+                <input type="radio"
+                 name="Segmento" value="0.30">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Monovolumen Familiar</label> 
+                <input type="radio"
+                 name="Segmento" value="0.34">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">SUV Familiar</label> 
+                <input type="radio"
+                 name="Segmento" value="0.45">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Todoterreno Superior</label>
+                <input type="radio"
+                 name="Segmento" value="0.5">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Gran lujo</label> 
+                <input type="radio"
+                 name="Segmento" value="0.75">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Deportivo alto</label> 
+                 <input type="radio"
+                 name="Segmento" value="0.80">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Deportivo pequeño</label>
+                <input type="radio"
+                 name="Segmento" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Segmento" value="0.2" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Marchas:</legend>
+              <fieldset id="groupMarchas">
+                  <div class="wrap">
+                <label for="contactChoice1">5</label>                  
+                <input type="radio"
+                 name="Marchas" value="0">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">6</label>
+                <input type="radio"
+                 name="Marchas" value="0.2">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">7</label>
+                <input type="radio"
+                 name="Marchas" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Marchas" value="0.15" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Capacidad deposito:</legend>
+              <fieldset id="groupDeposito">
+                  <div class="wrap">
+                <label for="contactChoice1">Pequeño</label>                  
+                <input type="radio"
+                 name="Deposito" value="0.2">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Mediano</label>
+                <input type="radio"
+                 name="Deposito" value="0.6">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Grande</label>
+                <input type="radio"
+                 name="Deposito" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Deposito" value="1" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Aceleracion:</legend>
+              <fieldset id="groupAceleracion">
+                  <div class="wrap">
+                <label for="contactChoice1">Suficiente</label>                  
+                <input type="radio"
+                 name="Aceleracion" value="0.1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">Impetuoso</label>
+                <input type="radio"
+                 name="Aceleracion" value="0.3">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Rápido</label>
+                <input type="radio"
+                 name="Aceleracion" value="0.6">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Aceleracion" value="0.2" checked="checked">
+                  </div>
+              </fieldset>
+
+              <legend>Numero de puertas:</legend>
+              <fieldset id="groupPuertas">
+                  <div class="wrap">
+                <label for="contactChoice1">3</label>                  
+                <input type="radio"
+                 name="Puertas" value="0">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice1">4</label>
+                <input type="radio"
+                 name="Puertas" value="0.7">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">5</label>
+                <input type="radio"
+                 name="Puertas" value="1">
+                  </div>
+                  <div class="wrap">
+                <label for="contactChoice2">Indiferente</label>
+                <input type="radio"
+                 name="Puertas" value="0.85" checked="checked">
+                  </div>
+              </fieldset>
+              <legend><span class="number">2</span> Click en Buscar!</legend>
+              <input type="submit" value="Buscar!"/>
+          </form>
+        </div>
+   </body>
+</html>
